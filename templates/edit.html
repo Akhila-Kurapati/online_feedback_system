@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Feedback</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="card">
+    <h2>Edit Feedback</h2>
+    <form method="post">
+        <textarea name="message" required>{{ feedback.message }}</textarea>
+        <button>Update Feedback</button>
+    </form>
+</div>
+</body>
+</html>

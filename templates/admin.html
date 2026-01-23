@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="card wide">
+
+    <div class="top-bar">
+        <h2>Admin Dashboard</h2>
+        <a href="/logout" class="logout">Logout</a>
+    </div>
+
+    <form method="get" class="search-box">
+        <input type="text" name="search" placeholder="Search by name or email">
+        <button>Search</button>
+    </form>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Feedback</th>
+            <th>Time</th>
+            <th>Action</th>
+        </tr>
+
+        {% for fb in feedbacks %}
+        <tr>
+            <td>{{ fb.name }}</td>
+            <td>{{ fb.email }}</td>
+            <td>{{ fb.message }}</td>
+            <td>{{ fb.created_at }}</td>
+            <td>
+    <div class="action-group">
+        <a href="/edit/{{ fb.id }}" class="action-btn edit-btn">Edit</a>
+        <a href="/delete/{{ fb.id }}" class="action-btn delete-btn"
+           onclick="return confirm('Delete this feedback?')">
+           Delete
+        </a>
+    </div>
+</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+</div>
+</body>
+</html>
