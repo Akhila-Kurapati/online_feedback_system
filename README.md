@@ -9,7 +9,7 @@ An Online Feedback System built using **Python Flask, HTML, CSS, and SQLite** th
 ![user page] <img width="848" height="392" alt="Image" src="https://github.com/user-attachments/assets/26364a08-d83c-40e9-bfb7-d5afff9ee2b6" />
 
 ### admin dashboard
-![admin dashboard] 
+![admin dashboard] <img width="864" height="393" alt="Image" src="https://github.com/user-attachments/assets/750713c3-b1ed-45e9-acb2-4a0d0548c5f5" />
 
 ---
 ## 🚀 Features
