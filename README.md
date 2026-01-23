@@ -3,7 +3,15 @@
 An Online Feedback System built using **Python Flask, HTML, CSS, and SQLite** that allows users to submit feedback and enables an admin to securely manage, view, edit, search, and delete feedback through an admin dashboard.
 
 ---
+## screenshots
 
+### user feedback page
+![user page] (<img width="848" height="392" alt="Image" src="https://github.com/user-attachments/assets/26364a08-d83c-40e9-bfb7-d5afff9ee2b6" />)
+
+### admin dashboard
+![admin dashboard]()
+
+---
 ## 🚀 Features
 
 ### 👤 User Side
