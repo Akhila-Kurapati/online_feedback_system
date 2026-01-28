@@ -1,4 +1,3 @@
-
 # 📝 Online Feedback System
 
 An Online Feedback System built using **Python Flask, HTML, CSS, and SQLite** that allows users to submit feedback and enables an admin to securely manage, view, edit, search, and delete feedback through an admin dashboard.
@@ -62,8 +61,5 @@ python app.py
 ### 4. open in browser
  http://127.0.0.1:5000/
 
-
-
-=======
 
 
