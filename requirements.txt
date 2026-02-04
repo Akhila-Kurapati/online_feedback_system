@@ -1,2 +1,1 @@
-flask
-gunicorn
+pip install flask mysql-connector-python
